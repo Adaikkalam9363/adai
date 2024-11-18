@@ -80,7 +80,7 @@ public class StudentController {
 	
 	
 	
-@GetMapping(value="/geteven")
+@GetMapping(value="/getEven")
 public List<Student> getEvenAges() {
 	return ss.getEvenAges();
 }
